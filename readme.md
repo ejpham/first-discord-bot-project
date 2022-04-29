@@ -7,3 +7,18 @@ since I just revamped my resume.
 Here I am.
 
 Let's make my first discord bot.
+
+    on_ready():
+        when logged in, print to console
+    
+    on_message(message):
+        if message is sent from bot itself, return
+        if message contains 'bing', reply 'bong'
+        if message contains forms of 'ok', react with custom 'ok' emoji
+    
+    on_message_delete(message):
+        if message was sent in #logs channel, return
+        prepare embed message with content of deleted message
+        prepare multiple embed messages for every image
+        add fields for every file
+        send message to #logs
