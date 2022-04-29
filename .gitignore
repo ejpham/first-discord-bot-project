@@ -1,0 +1,6 @@
+#Ignore sensitive files
+aincrad_bot.py
+
+#Ignore auto-generated files
+.vscode/
+.DS_Store

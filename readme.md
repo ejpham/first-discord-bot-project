@@ -15,6 +15,7 @@ Let's make my first discord bot.
         if message is sent from bot itself, return
         if message contains 'bing', reply 'bong'
         if message contains forms of 'ok', react with custom 'ok' emoji
+        if message starts with 'o phi o phi', reply 'g!'
     
     on_message_delete(message):
         if message was sent in #logs channel, return
