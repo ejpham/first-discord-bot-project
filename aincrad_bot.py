@@ -49,4 +49,4 @@ async def on_message_delete(message):
     for i, value in enumerate(embeds):
         await channel.send(embed=embeds[i])
 
-bot.run('OTY5NTI1NTI1NzkyMDUxMjIw.YmurAg.uepuhr4_t0eFALPyqjRd6mAwM_Q')
+bot.run('')
